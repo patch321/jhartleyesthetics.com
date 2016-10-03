@@ -1,0 +1,365 @@
+* {
+    font-family: 'Bilbo Swash Caps', cursive;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.7em;
+    padding-bottom: 5px;
+    text-align: center;
+    letter-spacing: 0.08em;
+}
+
+p {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+
+/*************************************************
+			DRY Selectors
+*************************************************/
+
+.greyBackground {
+    background: rgba(255, 255, 255, .95);
+}
+
+.greenbackground {
+    background-color: rgba(163, 211, 156, .2);
+}
+
+.responsiveContainer {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 5px;
+    box-shadow: 3px 3px 20px;
+}
+
+.navList li a,
+h1, h2, h3, p {
+    color: #5C8656;
+}
+
+.services h1,
+.contacts h1, .contacts h2, .contacts p, .services h2, .services p, .servicesSubList td {
+    color: #5C8656;
+}
+
+
+/*************************************************
+			HEADER AND NAVIGATION
+*************************************************/
+
+.mainHeader {
+    display: flex;
+    background-color: rgba(134, 73, 115, .9);
+    justify-content: center;
+}
+
+.navList {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navList li {
+    font-size: 1.2em;
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.navList li a {
+  white-space: nowrap;
+    display: inline-block;
+    font-size: 1.5em;
+    letter-spacing: .2em;
+    font-family: 'Bilbo Swash Caps', cursive;
+    display: block;
+    text-decoration: none;
+    color: #DBFFD6;
+}
+
+.navList li a:hover {
+    border-bottom: 1px solid #DBFFD6;
+}
+
+#logoLink a:hover {
+    border: none;
+}
+
+.logo {
+    width: 60px;
+    border: 3px solid rgba(223, 248, 60, .8);
+    border-radius: 50%;
+}
+
+.logo:hover {
+    box-shadow: 2px 2px 2px #000;
+}
+
+
+/*************************************************
+					BANNER
+*************************************************/
+
+.banner {
+    height: 600px;
+    padding-top: 100px;
+    box-shadow: 2px 2px 20px;
+}
+
+.bannerText h1 {
+    border-bottom: 1px solid rgba(92, 134, 86, .3);
+}
+
+.bannerText{
+  width: 60%;
+  background: none;
+  margin: 0 auto;
+  text-align: center;
+}
+/*************************************************
+					SERVICES
+*************************************************/
+
+.servicesContainer {
+    margin: 0 auto;
+    padding: 100px 0 5px;
+    background: #DBFFD6;
+}
+
+.services h1 {
+    padding-bottom: 5px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    border-bottom: 1px solid rgba(92, 134, 86, .3);
+}
+
+.services h2 {
+    font-size: 1.8em;
+    text-decoration: underline;
+    letter-spacing: 0.08em;
+}
+
+.servicesList {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 0;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.servicesList li {
+    justify-content: center;
+}
+
+.servicesSubList td {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    width: 100%;
+}
+
+
+/*************************************************
+					HOURS AND LOCATION
+*************************************************/
+
+.hoursAndLocContainer {
+  margin: 0 auto;
+  padding: 100px 0 5px;
+  background: #DBFFD6;
+}
+
+.hoursAndLoc h1 {
+    border-bottom: 1px solid rgba(92, 134, 86, .3);
+}
+
+.hoursAndLoc h2 {
+    text-decoration: underline;
+    letter-spacing: 0.08em;
+    margin-top:20px;
+}
+
+.hoursTable td {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    width: 20%;
+    color: #5C8656;
+}
+
+.tipList{
+  margin-top: 20px;
+  padding: 0;
+}
+
+.tipItem{
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: #5C8656;
+  margin-top: 5px;
+}
+
+.map {
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*************************************************
+					CONTACTS
+*************************************************/
+
+.contacts h1 {
+    padding-bottom: 5px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    border-bottom: 1px solid rgba(92, 134, 86, .8);
+}
+
+.contacts h2 {
+    font-size: 1.8em;
+    text-decoration: underline;
+    letter-spacing: 0.08em;
+}
+
+.contactsContainer {
+    margin: 0 auto;
+    padding: 100px 0;
+    background: #DBFFD6;
+}
+
+.socialButtonsList {
+    margin: 0 0 30px;
+    padding: 0;
+    border-bottom: 1px solid rgba(92, 134, 86, .8);
+}
+
+.socialButtons li {
+    display: inline-block;
+    width: 32%;
+    margin-bottom: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.socialButtons li h1 {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 0.675em;
+    display: none;
+    margin: 0;
+}
+
+.socialButtons img {
+    margin-bottom: 5px;
+    border-radius: 3px;
+    background-color: rgb(163,211,156);
+    box-shadow: -3px -3px 15px #666;
+}
+
+
+/*************************************************
+					FOOTER
+*************************************************/
+
+.mainFooter {
+    display: flex;
+    height: 70px;
+    background-color: rgba(134, 73, 115, .9);
+    justify-content: center;
+}
+
+.mainFooter p {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 0.75em;
+    display: inline-flex;
+    margin-top: 30px;
+    color: #DBFFD6;
+    justify-content: center;
+}
+
+
+/****************************************
+		MEDIA QUERIES
+****************************************/
+
+@media (min-width: 600px) {
+    .responsiveContainer {
+        width: 80%;
+    }
+    .navList {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        padding: 0;
+    }
+    .navList li {
+        flex-grow: 1;
+    }
+    .mainHeader {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 50px;
+        padding: 10px;
+    }
+    .banner {
+        margin-top: 50px;
+        background-image: url('../images/lashes.jpg');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+    }
+    .bannerText{
+      margin:0;
+      padding: 40px;
+    }
+}
+
+@media (min-width:768px) {
+    .navList {
+        flex-direction: row;
+        padding: 0;
+    }
+    .banner {
+        margin-top: 50px;
+    }
+    .responsivce-container {
+        padding: 40px;
+    }
+    .socialButtonsList li h1 {
+        display: inline-block;
+        border: none;
+    }
+}
+
+@media (min-width:951px) {
+    .responsiveContainer {
+        width: 70%;
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+}
+
+@media (min-width:1051px) {
+    .responsiveContainer {
+        width: 60%;
+        padding-right: 90px;
+        padding-left: 90px;
+    }
+    .banner {
+        height: 650px;
+        min-height: 100vh;
+    }
+    .bannerText {
+        font-size: 1.4em;
+    }
+}
