@@ -36,13 +36,11 @@ p {
     box-shadow: 3px 3px 20px;
 }
 
-.navList li a,
-h1, h2, h3, p {
+.navList li a, h1, h2, h3, p {
     color: #5C8656;
 }
 
-.services h1,
-.contacts h1, .contacts h2, .contacts p, .services h2, .services p, .servicesSubList td {
+.services h1, .contacts h1, .contacts h2, .contacts p, .services h2, .services p, .servicesSubList td {
     color: #5C8656;
 }
 
@@ -74,7 +72,7 @@ h1, h2, h3, p {
 }
 
 .navList li a {
-  white-space: nowrap;
+    white-space: nowrap;
     display: inline-block;
     font-size: 1.5em;
     letter-spacing: .2em;
@@ -117,12 +115,14 @@ h1, h2, h3, p {
     border-bottom: 1px solid rgba(92, 134, 86, .3);
 }
 
-.bannerText{
-  width: 60%;
-  background: none;
-  margin: 0 auto;
-  text-align: center;
+.bannerText {
+    width: 60%;
+    background: none;
+    margin: 0 auto;
+    text-align: center;
 }
+
+
 /*************************************************
 					SERVICES
 *************************************************/
@@ -170,9 +170,9 @@ h1, h2, h3, p {
 *************************************************/
 
 .hoursAndLocContainer {
-  margin: 0 auto;
-  padding: 100px 0 5px;
-  background: #DBFFD6;
+    margin: 0 auto;
+    padding: 100px 0 5px;
+    background: #DBFFD6;
 }
 
 .hoursAndLoc h1 {
@@ -182,7 +182,7 @@ h1, h2, h3, p {
 .hoursAndLoc h2 {
     text-decoration: underline;
     letter-spacing: 0.08em;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 .hoursTable td {
@@ -191,15 +191,16 @@ h1, h2, h3, p {
     color: #5C8656;
 }
 
-.tipList{
-  margin-top: 20px;
-  padding: 0;
+.tipList {
+    margin-top: 20px;
+    padding: 0;
+    padding-left: 10px;
 }
 
-.tipItem{
-  font-family: 'Trebuchet MS', Arial, sans-serif;
-  color: #5C8656;
-  margin-top: 5px;
+.tipItem {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #5C8656;
+    margin-top: 5px;
 }
 
 .map {
@@ -261,7 +262,7 @@ h1, h2, h3, p {
 .socialButtons img {
     margin-bottom: 5px;
     border-radius: 3px;
-    background-color: rgb(163,211,156);
+    background-color: rgb(163, 211, 156);
     box-shadow: -3px -3px 15px #666;
 }
 
@@ -318,9 +319,9 @@ h1, h2, h3, p {
         background-position: center top;
         background-size: cover;
     }
-    .bannerText{
-      margin:0;
-      padding: 40px;
+    .bannerText {
+        margin: 0;
+        padding: 40px;
     }
 }
 
